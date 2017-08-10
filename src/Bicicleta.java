@@ -39,7 +39,7 @@ public class Bicicleta {
 	}
 	
 	// outro construtor
-	public Bicicleta(int Marcha, float Velocidade, int Cadencia) {
+	private Bicicleta(int Marcha, float Velocidade, int Cadencia) {
 		this.cadencia = Cadencia;
 		this.velocidade = Velocidade;
 		this.marcha = Marcha;
